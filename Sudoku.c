@@ -76,6 +76,8 @@ int main() {
     printf("Invaild Move. Please select a row: ");
     scanf("%d", &userCOL);
   }
+
+  printf("The current value in that cell is %d.", checker[(9 * (userROW-1) ) + userCOL - 1]);
 /*  while (userCOL < 1 || userCOL > 9) {
     printf("Invaild Move. Please select a column: ");
     userCOL = getchar();
