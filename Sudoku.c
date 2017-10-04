@@ -59,7 +59,7 @@ void print_board() {
 
 int main() {
   int userROW;
-  char userCOL;
+  int userCOL;
 
   print_board();
 
@@ -71,7 +71,11 @@ int main() {
   }
 
   printf("Please select a column: ");
-  userCOL = getchar();
+  scanf("%d", &userCOL);
+  while (userCOL < 1 || userCOL > 9) {
+    printf("Invaild Move. Please select a row: ");
+    scanf("%d", &userCOL);
+  }
 /*  while (userCOL < 1 || userCOL > 9) {
     printf("Invaild Move. Please select a column: ");
     userCOL = getchar();
