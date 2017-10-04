@@ -16,7 +16,7 @@ void print_board() {
   int board[ROW][COL];
 
   // Prints the column headings.
-  printf("    A   B   C    D   E   F    G   H   I\n");
+  printf("    1   2   3    4   5   6    7   8   9\n");
 
   // Reads checker[] into board[][]
   x = 0;
