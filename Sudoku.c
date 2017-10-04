@@ -129,8 +129,9 @@ initBoard();
     scanf("%d", &tempVal);
     if(isValidMove(userROW,userCOL,tempVal)){
       board[userROW][userCOL] = tempVal;
+    }else {
+      printf("That is an illegal move!\n");
     }
-    printf("That is an illegal move!\n");
   }
 
   printf("Congrats you have won the game! Final Board: \n");
