@@ -1,3 +1,3 @@
 # Sudoku
 
-This is a simple sudoku project.
+This is a simple sudoku project in C.
