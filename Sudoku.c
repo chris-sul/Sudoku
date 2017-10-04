@@ -15,6 +15,7 @@ int checker[] = {5, 3, 0, 0, 7, 0, 0, 0, 0,
 int board[ROW][COL];
 int boardI[ROW][COL];
 
+
 void initBoard() {
   int i, j, x;
   // Reads checker[] into board[][]
